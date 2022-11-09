@@ -77,7 +77,7 @@ ssize_t get_line(char **lineptr, size_t *n, FILE *stream)
 	}
 	buffer[input] = '\0';
 	bring_line(lineptr, n, buffer, input);
-	
+	retval = input;
 	if (i != 0)
 		input = 0;
 	return (retval);
