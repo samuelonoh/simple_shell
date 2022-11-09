@@ -46,7 +46,7 @@ int error_sep_op(char *input, int i, char last)
 
 		if (last == '|')
 		{
-			count =char(input, 0);
+			count = repeated_char(input, 0);
 			if (count == 0 || count > 1)
 				return (i);
 		}
