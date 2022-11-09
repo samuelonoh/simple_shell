@@ -7,6 +7,7 @@
  * Return: input without comments
  */
 
+char *without_comment(char *in)
 {
 	int i, up_to;
 
