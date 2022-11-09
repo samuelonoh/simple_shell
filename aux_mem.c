@@ -69,7 +69,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
  */
 char **_reallocdp(char **ptr, unsigned int old_size, unsigned int new_size)
 {
-	char **newr;
+	char **newptr;
 	unsigned int i;
 
 	if (ptr == NULL)
