@@ -22,7 +22,7 @@ int exit_shell(data_shell *datash)
 		if (!is_digit || str_len > 10 || big_number)
 		{
 			get_error(datash, 2);
-			datash>status = 2;
+			datash->status = 2;
 			return (1);
 		}
 		datash->status = (ustatus % 256);
