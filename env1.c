@@ -71,7 +71,7 @@ int _env(data_shell *datash)
 		for (j = 0; datash->_environ[i][j]; j++)
 			;
 
-		write(STDOUT_FIL ENO, datash->_environ[i], j);
+		write(STDOUT_FILENO, datash->_environ[i], j);
 		write(STDOUT_FILENO, "\n", 1);
 	}
 	datash->status = 0;
