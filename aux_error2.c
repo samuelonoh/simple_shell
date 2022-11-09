@@ -55,7 +55,7 @@ char *error_path_126(data_shell *datash)
 	{
 		free(error);
 		free(ver_str);
-		return (NULL);
+		
 	}
 	_strcpy(error, datash->av[0]);
 	_strcat(error, ": ");
