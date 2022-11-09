@@ -168,12 +168,6 @@ int split_commands(data_shell *datash, char *input)
 	return (1);
 }
 
-/**
- * split_line - tokenizes the input string
- *
- * @input: input string.
- * Return: string splitted.
- */
 char **split_line(char *input)
 {
 	size_t bsize;
