@@ -45,7 +45,7 @@ void cd_dot(data_shell *datash)
 	else
 	{
 		chdir("/");
-		set_env("PWD", "/", );
+		set_env("PWD", "/", datash);
 	}
 	datash->status = 0;
 	free(cp_pwd);
